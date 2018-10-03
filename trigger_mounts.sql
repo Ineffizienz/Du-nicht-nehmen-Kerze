@@ -39,5 +39,8 @@ BEGIN
 	# character_inventory Einträge durchführen
 	INSERT INTO character_inventory (guid, bag, slot, item) VALUES (NEW.guid, 0, 37, maxGuid+1);
 	INSERT INTO character_inventory (guid, bag, slot, item) VALUES (NEW.guid, 0, 38, maxGuid+2);
+
+	# Log-Einträge in log_mount eintragen
+    INSERT INTO log_mount (character_guid, character_name, mount_ground, mount_fly) VALUES (NEW.guid, NEW.name, mountGround, mount);
 	END;//
 delimiter ;

@@ -465,6 +465,32 @@ INSERT INTO world.npc_vendor  VALUES (43296, 0, 50326, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43296, 0, 50327, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43296, 0, 50328, 0, 0, 0, 0);
 
+-- General Items
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 43285, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37291, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37288, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37670, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 40585, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37192, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37844, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37728, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37682, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37379, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37712, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37847, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 43282, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37186, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 38617, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37220, 0, 0, 0, 0); --
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37397, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 47232, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37874, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37178, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37367, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 44935, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37151, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43296, 0, 37390, 0, 0, 0, 0);
+
 -- Weapon
 INSERT INTO world.npc_vendor  VALUES (43296, 0, 50810, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43296, 0, 51004, 0, 0, 0, 0);

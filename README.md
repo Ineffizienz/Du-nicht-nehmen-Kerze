@@ -1,4 +1,4 @@
-# Du-nicht-nehmen-Kerze
+# Du nicht nehmen Kerze
 
 ## Grundgedanke
 Diese Readme soll euch eine Idee davon geben, was ich von einer Beta erwarte. Das ganze Projekt ist in den letzten Monaten ein bisschen ausgeartet und wir (an dieser Stelle ein riesiges Dankeschön an Mayon und Linda, die mich beide wirklich unterstützt haben!) haben viel am Server an sich verändert. Daher wird es einige Sachen geben, die ihr ausprobieren müsst, damit wir dann später im Januar einen reibungslosen Ablauf haben :)

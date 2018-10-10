@@ -21,19 +21,12 @@ Zusammenfassung:
 ### Startup
 * Händler
 * Items der Händler
-* fehlende Items/unvollständige Sets
 * Skills
 * Startmounts
 * Taschen
 * Geld
 
-### Inis
-* Funktionalität
-* fehlende Bosse
-* fehlende/fehlerhafte Abläufe
-* Balancing hinsichtlich der angebotenen Startitems
-
-### Raids
+### Raids&Inis
 * Funktionalität
 * fehlende Bosse
 * fehlende/fehlerhafte Abläufe
@@ -45,12 +38,28 @@ Zusammenfassung:
 * Gestaltung des Startgebiets
 
 
-Nachdem das alles in der gebotenen kürze geklärt ist, können wir jetzt endlich anfangen zu spielen. Um euch einen kurzen Überblick zu geben, was alles verändert wurde zum Einstieg nochmal mal folgende Liste:
+Nachdem das alles in der gebotenen kürze geklärt ist, können wir jetzt endlich anfangen zu spielen. Wem die obrige Liste ausreicht, darf gern anfangen zu teste. Alle anderen können sich gern auch die nachfolgenden Ausführungen zu den einzelnen Punkten nochmal durchlesen.
 
-* Händler
-* Items der neuen Händler
-* Startmounts
-* Skills
-* Taschen
 
-Das wären die Grundlagen, die funktionieren müssten. Ich werd jetzt zu jedem Punkt, der für mich wichtig ist, einen kurzen Text schreiben. Wem das zu viel zum Lesen ist, der möge sich bitte an der Liste oben orientieren und die entsprechenden Punkte auf Herz und Nieren ausprobieren.
+## BETA
+
+### Serverperformance
+Die Beta selber wird ja ausschließlich über's Internet abgehalten. Dadurch kann es natürlich zu Lags und Ähnlichem kommen, die aber nicht auf den Server selber, sondern wahrscheinlich eher auf meine Internetleitung zurückzuführen sind^^. Was aber zum Beispiel nicht sein darf, sind Texturen oder ganze Welten, die nicht schnell genug geladen werden und ihr euch praktisch im luftleeren Raum befindet. Auch Fehler beim Anzeigen der Map oder ähnlichem Sinn eher auf die Performance zurückzuführen, als auf die Leitung.
+Ich werd nebenbei auch die Performance überwachen. Sollte der Server nämlich bereits bei 10 Leuten in die Knie gehen, muss ich unter Umständen bis zur Lan noch nachrüsten^^
+
+### Serverstabilität
+Abstürze, Ausfälle und ähnliches sind hier relevant. Also sobald alle keine Verbindung mehr zum Server aufbauen können, liegt der Fehler auf meiner Seite und muss untersucht werden. Ich habe ein paar Tools und ein paar Logfiles, die mich dahingehend unterstützen können. Das heißt, solltet ihr solche Fehler bekommen und ich bin nicht da, teilt sie mir mit und ich werd sehen, was ich machen kann ;)
+
+### Händler
+Mit den Modifikationen auf dem Server habe wir eine ganze Palette von neuen Händlern eingeführt. Die sind zum Teil erheblich modifziert. Für mich ist interessant: Sind alle Items vorhanden, die ihr haben wollt, seid ihr in der Lage alle Händler zu finden, fehlt euch oder eurem Charakter irgendetwas relevantes, habt ihr Wünsche, was man noch aus Spaß hinzufügen könnte, funktionieren alle Händler und haben sie auch nur die Items, die für eure Klasse relevant sind?
+
+### Items der Händler
+Jeder Händler im Startgebiet hat eine Vielzahl an Items bekommen. Dabei kann's durchaus passieren, dass Items bei Händlern auftauchen, in denen sie gar nichts zu suchen haben. Auch können Items vorhanden sein, die ihr in keiner Rassen/Klassen-Kombination braucht oder vielleicht hat ein Item auch zu schlechte Stats und sollte lieber durch ein anderes ersetzt werden. Möglicherweise funktioniert auch ein Item/Set nicht ganz so, wie ihr euch das vorgestellt habt.
+
+### Skills
+Jeder von euch hat am Anfang alle Skills. Logisch müsst ihr bestimmte Skills aufleveln, solltet ihr sie über Talente neue hinzugewinnen. Möglich ist es trotzdem, dass irgendwelche Skills fehlen oder Level von Skills fehlen. Auch können Skills nicht richtig funktionieren oder weniger Schaden machen als gewohnt. Genau darum soll's bei diesen Meldungen gehen.
+Ein Beispiel: Jeder von euch hat die Fähigkeit zum Reiten bekommen. Mir ist allerdings damals entfallen, dass man für Nordend auch den Skill "Kaltwetterflug" braucht, um sich fortbewegen zu können. Das kann auch jeweils bei den Klassen passiert sein und deshalb müsst ihr bitte darauf besonders achten.
+
+### Startmounts
+Jeder von euch bekommt für seinen neuen Charakter ein zufälliges Boden- und Flugmount. Es kann sein, dass einer von euch eines der beiden nicht bekommt. Das zeigt mir bitte an. Auch sind immernoch Reittiere drin, die ihr nicht nutzen könnt, weil ihr Ruf bei einer bestimmten Klasse braucht. Da ich noch nicht in der Lage bin euren Ruf bei allen auf das Maximallevel zusetzen, müssen diese Mounts gezwungenermaßen entfernt werden.
+Das ihr beispielsweise Flugmounts nicht in einer Hauptstadt nutzen könnt, ist dabei natürlich kein Fehler, sondern so gewollt ;)

@@ -11,7 +11,7 @@ Mayon hat einen [Guide](https://onedrive.live.com/view.aspx?resid=8F23217BCB4D03
 ## Los geht's
 Da manche von euch wahrscheinlich nicht die Zeit haben alles zu lesen, werde ich hier einen kurzen Abriss geben, was getestet werden muss und wozu ich keine Auskünfte und Fehlermeldungen haben würde wollen. Für alle anderen werd ich das weiter unten ausführlicher darstellen, damit ihr einen Eindruck davon bekommt, was entscheidend ist. Ich werde zu jedem der unten genannten Punkte Ticket-Kategorien erstellen in denen ich dann eure Meldungen ablegen werde.
 
-Zusammenfassung:
+**Zusammenfassung:**
 
 ### Generell
 * Serverperformance
@@ -29,7 +29,6 @@ Zusammenfassung:
 ### Raids&Inis
 * Funktionalität
 * fehlende Bosse
-* fehlende/fehlerhafte Abläufe
 * Balancing hinsichtlich der angebotenen Startitems
 
 ### Optik
@@ -63,3 +62,27 @@ Ein Beispiel: Jeder von euch hat die Fähigkeit zum Reiten bekommen. Mir ist all
 ### Startmounts
 Jeder von euch bekommt für seinen neuen Charakter ein zufälliges Boden- und Flugmount. Es kann sein, dass einer von euch eines der beiden nicht bekommt. Das zeigt mir bitte an. Auch sind immernoch Reittiere drin, die ihr nicht nutzen könnt, weil ihr Ruf bei einer bestimmten Klasse braucht. Da ich noch nicht in der Lage bin euren Ruf bei allen auf das Maximallevel zusetzen, müssen diese Mounts gezwungenermaßen entfernt werden.
 Das ihr beispielsweise Flugmounts nicht in einer Hauptstadt nutzen könnt, ist dabei natürlich kein Fehler, sondern so gewollt ;)
+
+### Taschen
+Da ja sämtliches Farmen entfällt und auch die Berufe nicht wirklich zum Zuge kommen werden, habt ihr von Hause aus eine Extraladung Taschen bekommen. Das Problem ist, dass manche Klassen von Hause aus Taschen haben, die nun mit den neuen Taschen kollidieren. Ich würde mir Wünschen, dass ihr mir mitteilt, bei welchen Klassen das der Fall ist und auch guckt, ob sie entsprechend funktionieren und alle Items gesammelt werden.
+
+### Geld
+Jeder von euch hat eine erhebliche Menge Gold zu Anfang. Interessant ist, ob das auch für alles, was ihr von den Händlern kaufen müsst, ausreicht. Auch wenn jemand von euch ohne Geld startet, zeigt mir das bitte an.
+
+### Funktionalität von Raids&Inis
+An denen sind grundsätzlich keine Veränderungen von meiner Seite vorgenommen worden. Dennoch kann's sein, dass irgendwas daran nicht funktioniert oder nicht so läuft, wie gewohnt. Teilt mir das mit, damit ich unter Umständen selbst oder mithilfe von Patches nachhelfen kann.
+
+### fehlende Bosse
+Ähnliches Prinzip wie bei der Funktionionalität. Speziell das fehlen von Bossen ist aber ein größerer Akt, den ich gern losgelöst von der Funktionalität der Raids&Inis an sich betrachten würde wollen.
+
+### Balancing hinsichtlich der angebotenen Startitems
+Fühlt ihr euch zu schwach, macht ein bestimmtes Item nicht genug schaden, ist vielleicht die Kombination eurer Items an einer bestimmten Stelle zu schwach. Darum geht's in diesem Abschnitt.
+
+### fehlerhafte/fehlende Texturen
+Speziell für die Leute, die den Client von mir bezogen haben gilt: Alle Texturen, die nicht funktionieren oder nicht korrekt aussehen, müsst ihr mir bitte melden. Ich hab in meinem CLient HD-Texturen für die einzelnen Charaktere verbaut, was mit unter zu Problemen führen kann. Für die Leute, die den Client von Mayon bezogen haben, gilt natürlich trotzdem das gleiche ;)
+
+### Aufbau des Startgebiets
+Ist die Struktur der Händler nachvollziehbar, würdet ihr euch was an der Ordnung oder der Aufstellungen der einzelnen Händler wünschen oder gibt's generell Anmerkungen zur Aufteilung der Händler, darum geht's hier.
+
+### Gestaltung des Startgebiets
+Fallen euch noch Items, Abschnitte oder andere Elemente ein, die man zur Dekoration des Startgebiets hinstellen könnte, ein? Würdet ihr noch etwas an der Optik an sich verändern wollen? Das könntet ihr mir in diesem Zusammenhang mitteilen.

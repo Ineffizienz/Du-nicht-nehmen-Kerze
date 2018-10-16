@@ -63,6 +63,10 @@ Ein Beispiel: Jeder von euch hat die Fähigkeit zum Reiten bekommen. Mir ist all
 Jeder von euch bekommt für seinen neuen Charakter ein zufälliges Boden- und Flugmount. Es kann sein, dass einer von euch eines der beiden nicht bekommt. Das zeigt mir bitte an. Auch sind immernoch Reittiere drin, die ihr nicht nutzen könnt, weil ihr Ruf bei einer bestimmten Klasse braucht. Da ich noch nicht in der Lage bin euren Ruf bei allen auf das Maximallevel zusetzen, müssen diese Mounts gezwungenermaßen entfernt werden.
 Das ihr beispielsweise Flugmounts nicht in einer Hauptstadt nutzen könnt, ist dabei natürlich kein Fehler, sondern so gewollt ;)
 
+Die Mounts sollten auf den Taschenplätzen in der unteren rechten Ecke liegen, wobei auf dem ersten der beiden Plätze (37) das Boden-Mount und auf dem zweiten (38) das Flug-Mount sein sollte. Alle Abweichungen davon, zeigt mir bitte an :)
+
+![Tasche][images/backpack.png?raw=true "Tasche: Mounts"]
+
 ### Taschen
 Da ja sämtliches Farmen entfällt und auch die Berufe nicht wirklich zum Zuge kommen werden, habt ihr von Hause aus eine Extraladung Taschen bekommen. Das Problem ist, dass manche Klassen von Hause aus Taschen haben, die nun mit den neuen Taschen kollidieren. Ich würde mir Wünschen, dass ihr mir mitteilt, bei welchen Klassen das der Fall ist und auch guckt, ob sie entsprechend funktionieren und alle Items gesammelt werden.
 

@@ -27,7 +27,7 @@ Da manche von euch wahrscheinlich nicht die Zeit haben alles zu lesen, werde ich
 * Geld
 
 ### Raids&Inis
-* [Funktionalität](#Funktionalität)
+* [Funktionalität](#funktionalität-von-raidsinis)
 * fehlende Bosse
 * Balancing hinsichtlich der angebotenen Startitems
 

@@ -65,7 +65,7 @@ Das ihr beispielsweise Flugmounts nicht in einer Hauptstadt nutzen könnt, ist d
 
 Die Mounts sollten auf den Taschenplätzen in der unteren rechten Ecke liegen, wobei auf dem ersten der beiden Plätze (37) das Boden-Mount und auf dem zweiten (38) das Flug-Mount sein sollte. Alle Abweichungen davon, zeigt mir bitte an :)
 
-![Tasche](images/backpack.png?raw=true "Tasche: Mounts")
+![Tasche](../images/backpack.png?raw=true "Tasche: Mounts")
 
 ### Taschen
 Da ja sämtliches Farmen entfällt und auch die Berufe nicht wirklich zum Zuge kommen werden, habt ihr von Hause aus eine Extraladung Taschen bekommen. Das Problem ist, dass manche Klassen von Hause aus Taschen haben, die nun mit den neuen Taschen kollidieren. Ich würde mir Wünschen, dass ihr mir mitteilt, bei welchen Klassen das der Fall ist und auch guckt, ob sie entsprechend funktionieren und alle Items gesammelt werden.

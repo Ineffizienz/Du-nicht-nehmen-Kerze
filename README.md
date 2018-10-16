@@ -14,27 +14,27 @@ Da manche von euch wahrscheinlich nicht die Zeit haben alles zu lesen, werde ich
 **Zusammenfassung:**
 
 ### Generell
-* [Serverperformance](#Serverperformance)
-* Serverstabilität
+* [Serverperformance](#serverperformance)
+* [Serverstabilität](#serverstabilität)
 
 
 ### Startup
-* Händler
-* Items der Händler
-* Skills
-* Startmounts
-* Taschen
-* Geld
+* [Händler](#händler)
+* [Items der Händler](#items-der-händler)
+* [Skills](#skills)
+* [Startmounts](#startmounts)
+* [Taschen](#taschen)
+* [Geld](#geld)
 
 ### Raids&Inis
 * [Funktionalität](#funktionalität-von-raidsinis)
-* fehlende Bosse
-* Balancing hinsichtlich der angebotenen Startitems
+* [fehlende Bosse](#fehlende-bosse)
+* [Balancing hinsichtlich der angebotenen Startitems](#balancing-hinsichtlich-der-angebotenen-startitems)
 
 ### Optik
-* fehlende/fehlerhafte Texturen
-* Aufbau des Startgebiets
-* Gestaltung des Startgebiets
+* [fehlende/fehlerhafte Texturen](#fehlendefehlerhafte-texturen)
+* [Aufbau des Startgebiets](#aufbau-des-startgebiets)
+* [Gestaltung des Startgebiets](#gestaltung-des-startgebiets)
 
 
 Nachdem das alles in der gebotenen kürze geklärt ist, können wir jetzt endlich anfangen zu spielen. Wem die obrige Liste ausreicht, darf gern anfangen zu teste. Alle anderen können sich gern auch die nachfolgenden Ausführungen zu den einzelnen Punkten nochmal durchlesen.

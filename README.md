@@ -70,6 +70,14 @@ Die Mounts sollten auf den Taschenplätzen in der unteren rechten Ecke liegen, w
 ### Taschen
 Da ja sämtliches Farmen entfällt und auch die Berufe nicht wirklich zum Zuge kommen werden, habt ihr von Hause aus eine Extraladung Taschen bekommen. Das Problem ist, dass manche Klassen von Hause aus Taschen haben, die nun mit den neuen Taschen kollidieren. Ich würde mir Wünschen, dass ihr mir mitteilt, bei welchen Klassen das der Fall ist und auch guckt, ob sie entsprechend funktionieren und alle Items gesammelt werden.
 
+Wie ihr bereits in dem Bild hier drüber sehen könnt, hat jede Klasse, die entsprechende Items vom Start weg einfach benötigt, diese bereits in den Taschen.
+Kontrolliert bitte, ob eure Klasse alle notwendigen Zusatzitems besitzt.
+
+Momentan vorhanden:
+* Schamane: Erd-, Luft-, Wasser- und Feuertotem
+* Hexenmeister: Seelensplitter
+
+
 ### Geld
 Jeder von euch hat eine erhebliche Menge Gold zu Anfang. Interessant ist, ob das auch für alles, was ihr von den Händlern kaufen müsst, ausreicht. Auch wenn jemand von euch ohne Geld startet, zeigt mir das bitte an.
 

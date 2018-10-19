@@ -450,6 +450,8 @@ INSERT INTO world.npc_vendor  VALUES (43295, 0, 50966, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 51788, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 50793, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 50805, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43295, 0, 47287, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43295, 0, 45887, 0, 0, 0, 0);
 
 
 /************************* Paladin Item ****************************************/

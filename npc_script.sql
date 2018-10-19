@@ -791,17 +791,17 @@ INSERT INTO world.creature_template VALUES ('43325', '0', '0', '0', '0', '0', '6
 INSERT INTO world.creature VALUES ('213973', '43325', '571', '0', '0', '1', '1', '0', '0', '5848.98', '663.385', '609.158', '2.8731', '300', '0', '0', '5617', '7981', '0', '0', '0', '0', '', '0');
 UPDATE world.creature SET id = 43325 WHERE guid = 213973;
 
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17031, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17032, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17020, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17056, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17034, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17030, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17057, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17058, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 17028, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 44614, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 44605, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17031, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17032, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17020, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17056, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17034, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17030, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17057, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17058, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17028, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 44614, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 44605, 0, 0, 0, 0);
 
 /************************* Hunter-Pets ****************************************/
 

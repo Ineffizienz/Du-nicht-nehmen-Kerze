@@ -223,6 +223,19 @@ INSERT INTO world.npc_vendor  VALUES (43287, 0, 50277, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43287, 0, 50278, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43287, 0, 50279, 0, 0, 0, 0);
 
+-- General Items
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 45617, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 50309, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 45133, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 45242, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 47861, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 47855, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 49232, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 45614, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 47862, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 47879, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43287, 0, 45518, 0, 0, 0, 0);
+
 -- Weapons
 INSERT INTO world.npc_vendor  VALUES (43287, 0, 51553, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43287, 0, 51326, 0, 0, 0, 0);

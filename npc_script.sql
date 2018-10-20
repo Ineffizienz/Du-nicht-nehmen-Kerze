@@ -23,8 +23,15 @@ INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '54197', 'Cold
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '11', '6795', 'Crowl'); -- Bär Druide
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '3', '982', 'Revive Pet'); -- Pet wiederbeleben Jäger
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '45542', 'First Aid Grand Master'); -- First Aid
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33359', 'Cooking Master'); -- Cooking
 
 DELETE FROM world.creature WHERE guid = 104242;
+
+
+/************************* Modify Quest ****************************************/
+UPDATE world.quest_template SET RequiredNpcOrGoCount1 = 1 WHERE ID = 24507;
+
+
 
 /************************* Delete NPCs ****************************************/
 DELETE FROM world.creature WHERE guid = 213886;
@@ -846,6 +853,8 @@ INSERT INTO world.npc_vendor  VALUES (43291, 0, 46377, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43291, 0, 46376, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43291, 0, 33447, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43291, 0, 33448, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43291, 0, 13442, 0, 0, 0, 0);
+
 
 /************************* Gifthändler ****************************************/
 INSERT INTO world.creature VALUES ('213976', '4585', '571', '0', '0', '1', '1', '0', '1', '5783.16', '625.29', '609.158', '1.93217', '300', '0', '0', '1003', '0', '0', '0', '0', '0', '', '0');

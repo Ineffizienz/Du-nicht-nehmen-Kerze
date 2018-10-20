@@ -522,6 +522,33 @@ INSERT INTO world.npc_vendor  VALUES (43295, 0, 50832, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 50833, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 50834, 0, 0, 0, 0);
 
+-- General Items
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47665, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47666, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47667, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45133, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45243, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45517, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45461, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45486, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45618, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45460, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 50209, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47866, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 50270, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45244, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45615, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45495, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 46322, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45614, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47618, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47703, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45518, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45535, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 45609, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47879, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43295, 0, 47880, 0, 0, 0, 0);
+
 -- Weapon
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 51004, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43295, 0, 50051, 0, 0, 0, 0);

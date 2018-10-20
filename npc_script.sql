@@ -197,8 +197,6 @@ INSERT INTO world.npc_vendor VALUES (43286, 0, 51788, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43286, 0, 50793, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43286, 0, 50776, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43286, 0, 51385, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43286, 0, 50759, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43286, 0, 50787, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43286, 0, 50810, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43286, 0, 50046, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43286, 0, 51021, 0, 0, 0, 0);
@@ -398,6 +396,16 @@ INSERT INTO world.npc_vendor  VALUES (43292, 0, 45501, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 45587, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 46038, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 45522, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 45313, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 49487, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 47731, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 45471, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 49492, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 45496, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 45139, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 45111, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 50207, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 37692, 0, 0, 0, 0);
 
 -- Weapon
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 51834, 0, 0, 0, 0);
@@ -405,13 +413,9 @@ INSERT INTO world.npc_vendor  VALUES (43292, 0, 50759, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 50787, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 50760, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 50048, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor  VALUES (43292, 0, 50049, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor  VALUES (43292, 0, 51021, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 50798, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 51562, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor  VALUES (43292, 0, 50052, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 50761, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor  VALUES (43292, 0, 51022, 0, 0, 0, 0);
 
 
 /************************* Deathknight Item + Glyphen Händler ****************************************/

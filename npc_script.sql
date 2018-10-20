@@ -249,6 +249,14 @@ INSERT INTO world.npc_vendor VALUES (43288, 0, 47496, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43288, 0, 44893, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43288, 0, 41830, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43288, 0, 40694, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 47271, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 42137, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 47732, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 47278, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 45149, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 45618, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 45455, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43288, 0, 45243, 0, 0, 0, 0);
 
 -- Weapon
 INSERT INTO world.npc_vendor  VALUES (43288, 0, 51004, 0, 0, 0, 0);

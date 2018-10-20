@@ -20,7 +20,8 @@ INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33391', 'Jour
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '34090', 'Expert Riding');
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '34093', 'Artisan Riding');
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '54197', 'Cold Weather Flying');
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '6795', 'Crowl'); -- Bär Druide
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '11', '6795', 'Crowl'); -- Bär Druide
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '3', '982', 'Revive Pet'); -- Pet wiederbeleben Jäger
 
 DELETE FROM world.creature WHERE guid = 104242;
 
@@ -873,6 +874,25 @@ INSERT INTO world.npc_vendor VALUES (43325, 0, 44614, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43325, 0, 44605, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43325, 0, 21177, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43325, 0, 17033, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 22147, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 22148, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 44615, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 16583, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17026, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17029, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17038, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 5565, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 37201, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17024, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17037, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 8147, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17019, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 2927, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17036, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 5518, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 17035, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 5654, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43325, 0, 5517, 0, 0, 0, 0);
 
 /************************* Hunter-Pets ****************************************/
 

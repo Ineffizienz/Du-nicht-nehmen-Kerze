@@ -396,6 +396,8 @@ INSERT INTO world.npc_vendor  VALUES (43292, 0, 45241, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 40330, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 45501, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 45587, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 46038, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor  VALUES (43292, 0, 45522, 0, 0, 0, 0);
 
 -- Weapon
 INSERT INTO world.npc_vendor  VALUES (43292, 0, 51834, 0, 0, 0, 0);

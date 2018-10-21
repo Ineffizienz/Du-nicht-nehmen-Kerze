@@ -942,6 +942,7 @@ INSERT INTO world.npc_vendor VALUES (43309, 0, 40115, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40116, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40117, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40118, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43309, 0, 41611, 0, 0, 0, 0);
 
 
 /************************* Tiernahrung Händler ****************************************/

@@ -873,6 +873,7 @@ INSERT INTO world.npc_vendor  VALUES (43291, 0, 46376, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43291, 0, 33447, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43291, 0, 33448, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor  VALUES (43291, 0, 13442, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43291, 0, 22522, 0, 0, 0, 0);
 
 
 /************************* Gifthändler ****************************************/

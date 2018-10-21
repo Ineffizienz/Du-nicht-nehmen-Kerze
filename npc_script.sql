@@ -55,8 +55,8 @@ DELETE FROM world.creature WHERE guid = 102673;
 DELETE FROM world.creature WHERE guid = 102516;
 
 /************************* Add Game Objects ****************************************/
-
--- Mailbox
+--  GUID|Entry|Map|zone|area|spawnMask|phaseMask|position-x|position-y|position-z|orientation|rotation0|rotation1|rotation2|rotation3|spawntimesecs|animprogress|state|ScriptName|VerifiedBuild
+-- Mailbox                            
 INSERT INTO world.gameobject VALUES ('166476', '177044', '571', '0', '0', '1', '1', '5819.97', '634.524', '609.886', '4.00649', '-0', '-0', '-0.907943', '0.419094', '300', '255', '1', '', '0');
 
 -- add Runeforge

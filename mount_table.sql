@@ -1,3 +1,4 @@
+--CREATE TABLE characters.help_mount (ID INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL, mount_id VARCHAR(45) NOT NULL, flying INT(11) NOT NULL);
 INSERT INTO characters.help_mount (mount_id, flying) VALUES ('5665', '0'), ('5668', '0'), ('8586', '0'),
 ('8588', '0'),
 ('8591', '0'),
@@ -113,7 +114,7 @@ INSERT INTO characters.help_mount (mount_id, flying) VALUES ('5665', '0'), ('566
 ('43952', '1'),
 ('44083', '0'),
 ('44175', '1'),
-('44842', '0'),
+('44842', '1'),
 ('45592', '0'),
 ('45593', '0'),
 ('45595', '0'),

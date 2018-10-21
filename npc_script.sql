@@ -24,6 +24,7 @@ INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '11', '6795', 'Crow
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '3', '982', 'Revive Pet'); -- Pet wiederbeleben Jäger
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '45542', 'First Aid Grand Master'); -- First Aid
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33359', 'Cooking Master'); -- Cooking
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '6', '50977', 'Deathgate'); -- Grundfertigkeit Deathknight
 
 DELETE FROM world.creature WHERE guid = 104242;
 

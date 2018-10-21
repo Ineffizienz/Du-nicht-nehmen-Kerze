@@ -14,6 +14,7 @@ INSERT INTO world.playercreateinfo_item VALUES ('0','7','5176','1'); -- Feuertot
 INSERT INTO world.playercreateinfo_item VALUES ('0','7','5177','1'); -- Wassertotem an Schamane
 INSERT INTO world.playercreateinfo_item VALUES ('0','7','5178','1'); -- Lufttotem an Schamane
 INSERT INTO world.playercreateinfo_item VALUES ('0','9','6265','13'); -- Soul Shards an Hexenmeister
+INSERT INTO world.playercreateinfo_item VALUES ('0','3','44448','1'); -- Verstärkter nerubischer Köcher
 
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33388', 'Apprentice Riding');
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33391', 'Journeymap Riding');

@@ -159,6 +159,7 @@ INSERT INTO world.creature VALUES ('213881', '2704', '571', '0', '0', '1', '1', 
 
 -- Todesritter
 INSERT INTO world.creature VALUES ('213954', '29194', '571', '0', '0', '1', '1', '0', '0', '5747.92', '598.817', '613.759', '0.512955', '300', '0', '0', '126000', '0', '0', '0', '0', '0', '', '0');
+UPDATE world.creature_template SET subname = "Todesritterlehrer" WHERE entry = 29194;
 -- Krieger
 INSERT INTO world.creature VALUES ('213955', '3353', '571', '0', '0', '1', '1', '0', '1', '5762.03', '590.36', '613.659', '0.933142', '300', '0', '0', '4121', '0', '0', '0', '0', '0', '', '0');
 -- Paladin

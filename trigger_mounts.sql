@@ -12,6 +12,8 @@ BEGIN
 	DECLARE canFly int DEFAULT 0;
 	DECLARE maxGuid int;
     DECLARE bag int;
+    DECLARE groundid int;
+    DECLARE flyid int;
 
 	# Zufallszahl (= ID von help_mount) für das fliegende Reittier bestimmen
 	SET max = ((SELECT count(*) FROM help_mount)+1);
@@ -31,16 +33,19 @@ BEGIN
 
 	# guid für Einträge in item_instance festlegen und Einträge durchführen
 	SET maxGuid = (SELECT max(guid) FROM item_instance);
+	SET groundid = maxGuid + 1;
+	SET flyid = maxGuid + 2;
+
 	INSERT INTO item_instance (guid, itemEntry, owner_guid, creatorGuid, giftCreatorGuid, count, duration, charges, flags, enchantments, randomPropertyId, durability, playedTime, text) 
-		VALUES (maxGuid+1, mount, NEW.guid, 0, 0, 1, 0, '-1 0 0 0 0 ', 0, '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ', 0, 0, 0, '');
+		VALUES (groundid, mount, NEW.guid, 0, 0, 1, 0, '-1 0 0 0 0 ', 0, '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ', 0, 0, 0, '');
 	INSERT INTO item_instance (guid, itemEntry, owner_guid, creatorGuid, giftCreatorGuid, count, duration, charges, flags, enchantments, randomPropertyId, durability, playedTime, text) 
-		VALUES (maxGuid+2, mountGround, NEW.guid, 0, 0, 1, 0, '-1 0 0 0 0 ', 0, '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ', 0, 0, 0, '');
+		VALUES (flyid, mountGround, NEW.guid, 0, 0, 1, 0, '-1 0 0 0 0 ', 0, '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ', 0, 0, 0, '');
     
 	# character_inventory Einträge durchführen
-	INSERT INTO character_inventory (guid, bag, slot, item) VALUES (NEW.guid, 0, 37, maxGuid+1);
-	INSERT INTO character_inventory (guid, bag, slot, item) VALUES (NEW.guid, 0, 38, maxGuid+2);
+	INSERT INTO character_inventory (guid, bag, slot, item) VALUES (NEW.guid, 0, 37, groundid);
+	INSERT INTO character_inventory (guid, bag, slot, item) VALUES (NEW.guid, 0, 38, flyid);
 
-	# Log-Einträge in log_mount eintragen
+	# Log-Einträge in log_mount eintragen/
     INSERT INTO log_mount (character_guid, character_name, mount_ground, mount_fly) VALUES (NEW.guid, NEW.name, mountGround, mount);
 	END;//
 delimiter ;

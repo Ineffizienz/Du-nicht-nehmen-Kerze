@@ -210,10 +210,6 @@ INSERT INTO world.creature VALUES ('214003', '43331', '571', '0', '0', '1', '1',
 INSERT INTO world.creature_template VALUES ('43332', '0', '0', '0', '0', '0', '4449', '0', '0', '0', 'Lydia', "Grol'dar's Minion", NULL, '0', '56', '56', '0', '35', '2', '1', '1.14286', '1', '0', '0', '2000', '2000', '1', '1', '2', '0', '2048', '0', '0', '0', '0', '0', '0', '3', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '3', '1', '1', '1', '1', '1', '1', '0', '0', '1', '0', '2', '', '12340');
 INSERT INTO world.creature VALUES ('214004', '43332', '571', '0', '0', '1', '1', '159', '0', '5790.3', '635.502', '609.886', '0.0939924', '300', '0', '0', '2159', '2163', '0', '0', '0', '0', '', '0');
 
--- Brittany Bling
-INSERT INTO world.creature_template VALUES ('43333', '0', '0', '0', '0', '0', '4979', '0', '0', '0', 'Brittany Bling', 'Lady Cartiers Gehilfe', 'Buy', '0', '80', '80', '2', '2', '128', '1', '1.38571', '1', '1', '0', '2000', '2000', '1', '1', '1', '256', '2048', '0', '0', '0', '0', '0', '0', '7', '8', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '3', '1', '400', '16', '1', '7.5', '1', '0', '0', '1', '0', '0', '', '0')
-INSERT INTO world.creature VALUES ('214007', '43333', '571', '0', '0', '1', '1', '25608', '0', '5794.6', '658.139', '609.158', '3.81856', '300', '0', '0', '2159', '2163', '0', '0', '0', '0', '', '0');
-
 -- Celine (Dance)
 INSERT INTO world.creature_template VALUES ('43334', '0', '0', '0', '0', '0', '17651', '0', '0', '0', 'Celine', 'Tänzerin', NULL, '0', '60', '60', '0', '1604', '209', '1', '1.14286', '1', '0', '0', '2000', '2000', '1', '1', '1', '512', '2048', '0', '0', '2', '0', '0', '0', '7', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '1', '3', '1', '1.02', '1', '1', '1', '1', '0', '0', '1', '0', '2', '', '12340');
 INSERT INTO world.creatue VALUES ('214010', '43334', '571', '0', '0', '1', '1', '0', '0', '5848.51', '693.211', '610.698', '3.96759', '300', '0', '0', '3114', '0', '0', '0', '0', '0', '', '0');
@@ -1035,6 +1031,66 @@ INSERT INTO world.npc_vendor VALUES (43309, 0, 40116, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40117, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40118, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41611, 0, 0, 0, 0);
+
+
+-- Brittany Bling
+INSERT INTO world.creature_template VALUES ('43333', '0', '0', '0', '0', '0', '4979', '0', '0', '0', 'Brittany Bling', 'Lady Cartiers Gehilfe', 'Buy', '0', '80', '80', '2', '2', '128', '1', '1.38571', '1', '1', '0', '2000', '2000', '1', '1', '1', '256', '2048', '0', '0', '0', '0', '0', '0', '7', '8', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '3', '1', '400', '16', '1', '7.5', '1', '0', '0', '1', '0', '0', '', '0')
+INSERT INTO world.creature VALUES ('214007', '43333', '571', '0', '0', '1', '1', '25608', '0', '5794.6', '658.139', '609.158', '3.81856', '300', '0', '0', '2159', '2163', '0', '0', '0', '0', '', '0');
+
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40142, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40144, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40145, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40143, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40146, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40147, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40148, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40149, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40150, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40151, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40152, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40153, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40154, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40155, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40156, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40157, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40158, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40159, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40160, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40161, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40162, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40163, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40129, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40130, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40131, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40132, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40133, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40134, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40135, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40136, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40137, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40138, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40139, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40140, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40141, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40164, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40165, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40166, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40167, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40168, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40169, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40170, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40171, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40172, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40173, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40174, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40175, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40176, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40177, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40178, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40179, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40180, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40181, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40182, 0, 0, 0, 0);
 
 
 /************************* Tiernahrung Händler ****************************************/

@@ -26,6 +26,11 @@ INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '3', '982', 'Revive
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '45542', 'First Aid Grand Master'); -- First Aid
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33359', 'Cooking Master'); -- Cooking
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '6', '50977', 'Deathgate'); -- Grundfertigkeit Deathknight
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '11417', 'Portal Orgrimmar');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '35717', 'Portal Shattrath');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '32267', 'Portal Silvermoon');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '11420', 'Portal Thunder Bluff');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '11418', 'Portal Undercity');
 
 DELETE FROM world.creature WHERE guid = 104242;
 

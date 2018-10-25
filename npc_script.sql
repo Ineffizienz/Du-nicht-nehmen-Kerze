@@ -1051,6 +1051,24 @@ INSERT INTO world.npc_vendor VALUES (43325, 0, 17035, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43325, 0, 5654, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43325, 0, 5517, 0, 0, 0, 0);
 
+
+/************************* Verzauberungen-Händler ****************************************/
+
+INSERT INTO world.creature_template VALUES ('43336', '0', '0', '0', '0', '0', '19193', '0', '0', '0', 'Carmen Incantrica', 'Verzauberungen', 'Buy', '8380', '30', '30', '0', '1604', '128', '1', '1.14286', '1', '0', '0', '2000', '2000', '1', '1', '2', '4608', '2048', '0', '0', '0', '0', '0', '0', '7', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '1', '3', '1', '1', '1', '1', '1', '1', '0', '0', '1', '0', '2', '', '12340');
+INSERT INTO world.creature VALUES ('214014', '43336', '571', '0', '0', '1', '1', '0', '0', '5808.37', '677.847', '609.77', '5.64554', '300', '0', '0', '811', '852', '0', '0', '0', '0', '', '0');
+UPDATE world.creature SET id = 43336 WHERE guid = 214014;
+
+INSERT INTO world.npc_vendor VALUES (43336, 0, 41611, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 44133, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 38374, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 50369, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 44136, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 44957, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 23549, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 34207, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 38373, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43336, 0, 44465, 0, 0, 0, 0); -- Powerful stats
+
 /************************* Hunter-Pets ****************************************/
 
 -- DELETE old

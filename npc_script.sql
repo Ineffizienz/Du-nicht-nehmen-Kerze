@@ -1068,6 +1068,8 @@ INSERT INTO world.npc_vendor VALUES (43336, 0, 23549, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43336, 0, 34207, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43336, 0, 38373, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43336, 0, 44465, 0, 0, 0, 0); -- Powerful stats
+INSERT INTO world.npc_vendor VALUES (43336, 0, 41604, 0, 0, 0, 0); -- saphirfarbener Zauberfaden
+INSERT INTO world.npc_vendor VALUES (43336, 0, 41602, 0, 0, 0, 0); -- glänzender Zauberfaden
 
 /************************* Hunter-Pets ****************************************/
 

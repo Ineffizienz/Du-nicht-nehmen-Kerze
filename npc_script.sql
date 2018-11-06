@@ -21,16 +21,16 @@ INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33391', 'Jour
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '34090', 'Expert Riding');
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '34093', 'Artisan Riding');
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '54197', 'Cold Weather Flying');
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '11', '6795', 'Crowl'); -- Bär Druide
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '3', '982', 'Revive Pet'); -- Pet wiederbeleben Jäger
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '1024', '6795', 'Crowl'); -- Bär Druide
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '4', '982', 'Revive Pet'); -- Pet wiederbeleben Jäger
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '45542', 'First Aid Grand Master'); -- First Aid
 INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '0', '33359', 'Cooking Master'); -- Cooking
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '6', '50977', 'Deathgate'); -- Grundfertigkeit Deathknight
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '11417', 'Portal Orgrimmar');
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '35717', 'Portal Shattrath');
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '32267', 'Portal Silvermoon');
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '11420', 'Portal Thunder Bluff');
-INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '8', '11418', 'Portal Undercity');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '32', '50977', 'Deathgate'); -- Grundfertigkeit Deathknight
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '128', '11417', 'Portal Orgrimmar');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '128', '35717', 'Portal Shattrath');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '128', '32267', 'Portal Silvermoon');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '128', '11420', 'Portal Thunder Bluff');
+INSERT INTO world.playercreateinfo_spell_custom VALUES ('0', '128', '11418', 'Portal Undercity');
 
 DELETE FROM world.creature WHERE guid = 104242;
 
@@ -389,7 +389,7 @@ INSERT INTO world.npc_vendor  VALUES (43290, 0, 50793, 0, 0, 0, 0);
 /************************* Hexenmeister Item ****************************************/
 
 -- Händler
-UPDATE world.creature SET position_x = "5789.48" AND position_y = "639.875" AND position_z = "609.886" AND orientation = "0.0948043" WHERE guid = 102749; 
+UPDATE world.creature SET position_x = "5793.72" AND position_y = "639.875" AND position_z = "609.886" AND orientation = "0.0948043" WHERE guid = 102749; 
 UPDATE world.creature_template SET subname = "Hexenmeister Ausrüstung" WHERE entry = 32334;
 DELETE FROM world.npc_vendor WHERE entry = 32334;
 
@@ -750,8 +750,8 @@ INSERT INTO world.npc_vendor VALUES (43300, 0, 41107, 0, 0, 0, 0), (43300, 0, 41
 
 
 -- Hunter - Händler
-INSERT INTO world.creature_template VALUES ('43306', '0', '0', '0', '0', '0', '32467', '0', '0', '0', 'Hunti Glyph', 'Glyphen (Hunter)', 'Buy', '0', '80', '80', '2', '2', '128', '1', '1.38571', '1', '1', '0', '2000', '2000', '1', '1', '1', '256', '2048', '0', '0', '0', '0', '0', '0', '7', '8', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '3', '1', '400', '16', '1', '7.5', '1', '0', '0', '1', '0', '0', '', '0');
-INSERT INTO world.creature VALUES ('213914', '43306', '571', '0', '0', '1', '1', '32467', '1', '5819.22', '622.539', '610.512', '2.59159', '300', '0', '0', '10635', '0', '0', '0', '0', '0', '', '0');
+INSERT INTO world.creature_template VALUES ('43306', '0', '0', '0', '0', '0', '23467', '0', '0', '0', 'Hunti Glyph', 'Glyphen (Hunter)', 'Buy', '0', '80', '80', '2', '2', '128', '1', '1.38571', '1', '1', '0', '2000', '2000', '1', '1', '1', '256', '2048', '0', '0', '0', '0', '0', '0', '7', '8', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '3', '1', '400', '16', '1', '7.5', '1', '0', '0', '1', '0', '0', '', '0');
+INSERT INTO world.creature VALUES ('213914', '43306', '571', '0', '0', '1', '1', '23467', '1', '5819.22', '622.539', '610.512', '2.59159', '300', '0', '0', '10635', '0', '0', '0', '0', '0', '', '0');
 UPDATE world.creature SET id = 43306 WHERE guid = 213914;
 
 

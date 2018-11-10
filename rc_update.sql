@@ -1,3 +1,25 @@
+-- neue Mounts hinzufügen
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('25596', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('28915', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('29105', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('29225', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('29228', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('33225', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('49284', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('46708', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('46814', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('47840', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('50435', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('37012', '0');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('50818', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('54811', '1');
+INSERT INTO characters.help_mount (mount_id, flying) VALUES ('43599', '0');
+UPDATE characters.help_mount SET flying = 1 WHERE mount_id = 50250;
+
+-- entferne nicht nutzbare Mounts aus help_mount
+DELETE FROM characters.help_mount WHERE mount_id = 39303;
+DELETE FROM characters.help_mount WHERE mount_id = 21323;
+
 -- Startspells für spezifische Klassen
 UPDATE world.playercreateinfo_spell_custom SET classmask = 1024 WHERE Spell = 6795;
 UPDATE world.playercreateinfo_spell_custom SET classmask = 4 WHERE Spell = 982;

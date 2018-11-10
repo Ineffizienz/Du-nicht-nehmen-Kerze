@@ -42,3 +42,8 @@ UPDATE world.creature_template SET modelid1 = 23467 WHERE entry = 43306;
 
 -- Hexenmeister Ausrüstung Position
 UPDATE world.creature SET position_x = 5790.69 WHERE guid = 102749;
+
+
+-- Textänderungen GObjects
+UPDATE world.page_text SET Text = "Ein großes Dankeschön gehen an Linda und Mayon für die technische Unterstützung, Dennis und Mayon für das Design, Mayon, Steffi und Kitty für die Guides und Danny, Daniel, Dennis, Kitty, Mayon, Linda, Malte für die Beta-Tests :D" WHERE ID = 3605;
+UPDATE world.page_text_locale SET Text = "Ein großes Dankeschön gehen an Linda und Mayon für die technische Unterstützung, Dennis und Mayon für das Design, Mayon, Steffi und Kitty für die Guides und Danny, Daniel, Dennis, Kitty, Mayon, Linda, Malte für die Beta-Tests :D" WHERE ID = 3605 AND locale = "deDE";

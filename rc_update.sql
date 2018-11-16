@@ -74,6 +74,25 @@ UPDATE world.creature_template SET name = "D'ja Ma'al" WHERE entry = 43300;
 UPDATE world.creature_template SET name = "Bilian Teraiken" WHERE entry = 43296;
 UPDATE world.creature_template SET name = "Jaij N'wey" WHERE entry = 5882;
 
+-- Update Verzauberungshändler
+INSERT INTO world.npc_vendor VALUES (43336, 0, 50367, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 44815, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 44458, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 39003, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 44457, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 44491, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 39001, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 38825, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 35449, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 44947, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 38863, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 38856, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 44469, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 38964, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 38967, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 35449, 0, 0, 0, 0);
+INSERT INTO world.npc_vender VALUES (43336, 0, 35449, 0, 0, 0, 0);
+
 -- Add GObjects
 INSERT INTO world.gameobject VALUES ('167196', '185130', '571', '0', '0', '1', '1', '5829.04', '647.529', '610.286', '5.23438', '-0', '-0', '-0.500695', '0.865624', '300', '255', '1', '', '0');
 
@@ -123,8 +142,9 @@ UPDATE world.creature_template SET gossip_menu_id = 57021 WHERE entry = 43341;
 INSERT INTO world.gossip_menu VALUES ('57021', '50017', '0');
 INSERT INTO world.gossip_menu_option VALUES ('57021', '0', '1', 'Ich benötige Ausrüstung', '0', '3', '128', '0', '0', '0', '0', '', '0', '0');
 INSERT INTO world.gossip_menu_option VALUES ('57021', '1', '10', '', '0', '2', '2', '0', '0', '0', '0', '', '0', '0');
+INSERT INTO world.gossip_menu_option VALUES ('57021', '0', '10', 'Und nocha Text', '0', '2', '2', '0', '0', '0', '0', '', '0', '0');
 INSERT INTO world.npc_text VALUES ('50017', 'Willkommen in Nordend werter Reisender. Ich bin Ombrok der Verschnupfte.... *Hatschi* Auf dem Schwarzmarkt von Dalaran seht ihr alles, was das Kämpferherz begehrt. Bedient euch, aber bedenkt, dass ihr nicht alles tragen könnt. *Haaaaaaaatschiiii* Gott verdammtes Wetter...', NULL, '77866', '0', '0', '0', '0', '0', '0', '0', '0', NULL, NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', NULL, NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', NULL, NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', NULL, NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', NULL, NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', '', NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', NULL, NULL, '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
 
-INSERT INTO world.smart_scripts VALUES ('43341', '0', '0', '1', '62', '0', '100', '1', '57021', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'Quest abschließen?');
-INSERT INTO world.smart_scripts VALUES ('43341', '0', '1', '0', '49', '0', '100', '1', '0', '0', '0', '0', '0', '72', '0', '0', '0', '0', '0', '0', '7', '0', '0', '0', '0', '0', '0', '0', '0', 'Siegemaster Fezzik - Out of Combat - Quest Credit \'A Cold Front Approaches\'');
+INSERT INTO world.smart_scripts VALUES ('43341', '1', '0', '1', '62', '0', '100', '0', '57021', '0', '0', '0', '0' '72', '0', '0', '0', '0', '0', '7', '0', '0', '0', '0', '0', '0', '0', '0', '0', hm?');
+INSERT INTO world.smart_scripts VALUES ('43341', '1', '1', '0', '62', '0', '100', '0', '57021', '0', '0', '0', '0' '11', '79181', '0', '0', '0', '0', '0', '7', '0', '0', '0', '0', '0', '0', '0', '0', 'Siegemaster Fezzik - Out of Combat - Quest Credit \'A Cold Front Approaches\'');
 */

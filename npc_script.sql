@@ -908,7 +908,7 @@ INSERT INTO world.npc_vendor VALUES (43309, 0, 40125, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40126, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40127, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40128, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 41285, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43309, 0, 41285, 0, 0, 0, 0); -- Wechselhafter Polarlichtdiamant
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41307, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41333, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41335, 0, 0, 0, 0);
@@ -927,17 +927,17 @@ INSERT INTO world.npc_vendor VALUES (43309, 0, 41389, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41395, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41396, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41397, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 41398, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43309, 0, 41398, 0, 0, 0, 0); -- Unerbittlicher Erdringdiamant
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41401, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 49110, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 40111, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 40112, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43309, 0, 49110, 0, 0, 0, 0); -- Alptraumträne
+INSERT INTO world.npc_vendor VALUES (43309, 0, 40111, 0, 0, 0, 0); -- Klobiger Kardinalsrubin
+INSERT INTO world.npc_vendor VALUES (43309, 0, 40112, 0, 0, 0, 0); -- Feingeschliffener Kardinalsrubin
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40113, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40114, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40115, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43309, 0, 40116, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 40117, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43309, 0, 40118, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43309, 0, 40117, 0, 0, 0, 0); -- Frakturierter Kardinalsrubin
+INSERT INTO world.npc_vendor VALUES (43309, 0, 40118, 0, 0, 0, 0); -- Präziser Kardinalsrubin
 INSERT INTO world.npc_vendor VALUES (43309, 0, 41611, 0, 0, 0, 0);
 
 
@@ -949,8 +949,8 @@ INSERT INTO world.npc_vendor VALUES (43333, 0, 40142, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40144, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40145, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40143, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43333, 0, 40146, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43333, 0, 40147, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40146, 0, 0, 0, 0); -- Wilder Ametrin
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40147, 0, 0, 0, 0); -- Tödlicher Ametrin
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40148, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40149, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40150, 0, 0, 0, 0);
@@ -962,13 +962,13 @@ INSERT INTO world.npc_vendor VALUES (43333, 0, 40155, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40156, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40157, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40158, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43333, 0, 40159, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40159, 0, 0, 0, 0); -- Reiner Ametrin
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40160, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40161, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40162, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40163, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40129, 0, 0, 0, 0);
-INSERT INTO world.npc_vendor VALUES (43333, 0, 40130, 0, 0, 0, 0);
+INSERT INTO world.npc_vendor VALUES (43333, 0, 40130, 0, 0, 0, 0); -- Veränderlicher Schreckensstein
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40131, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40132, 0, 0, 0, 0);
 INSERT INTO world.npc_vendor VALUES (43333, 0, 40133, 0, 0, 0, 0);

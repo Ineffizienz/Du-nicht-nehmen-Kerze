@@ -75,23 +75,50 @@ UPDATE world.creature_template SET name = "Bilian Teraiken" WHERE entry = 43296;
 UPDATE world.creature_template SET name = "Jaij N'wey" WHERE entry = 5882;
 
 -- Update Verzauberungshändler
-INSERT INTO world.npc_vendor VALUES (43336, 0, 50367, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 44815, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 44458, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 39003, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 44457, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 44491, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 39001, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 38825, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 35449, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 44947, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 38863, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 38856, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 44469, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 38964, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 38967, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 35449, 0, 0, 0, 0);
-INSERT INTO world.npc_vender VALUES (43336, 0, 35449, 0, 0, 0, 0);
+
+INSERT INTO world.npc_vendor VALUES (43336, 0, 41611, 0, 0, 0, 0); -- Ewige Gürtelschnalle
+INSERT INTO world.npc_vendor VALUES (43336, 1, 44133, 0, 0, 0, 0); -- Große Inschrift der Axt
+INSERT INTO world.npc_vendor VALUES (43336, 2, 44136, 0, 0, 0, 0); -- Große Inschrift des Turms
+INSERT INTO world.npc_vendor VALUES (43336, 3, 44957, 0, 0, 0, 0); -- Große Inschrift des Gladiators
+INSERT INTO world.npc_vendor VALUES (43336, 4, 38374, 0, 0, 0, 0); -- Eisschuppenbeinrüstung
+INSERT INTO world.npc_vendor VALUES (43336, 5, 50369, 0, 0, 0, 0); -- Arkanum des tapferen Beschützers
+INSERT INTO world.npc_vendor VALUES (43336, 6, 50367, 0, 0, 0, 0); -- Arkanum der Qualen
+INSERT INTO world.npc_vendor VALUES (43336, 7, 23549, 0, 0, 0, 0); -- Standhaftigkeit der Geißel
+INSERT INTO world.npc_vendor VALUES (43336, 8, 34207, 0, 0, 0, 0); -- Handschuhverstärkung
+INSERT INTO world.npc_vendor VALUES (43336, 9, 38373, 0, 0, 0, 0); -- Frostbalgbeinrüstung
+INSERT INTO world.npc_vendor VALUES (43336, 10, 41604, 0, 0, 0, 0); -- Saphirfarbener Zauberfaden
+INSERT INTO world.npc_vendor VALUES (43336, 11, 41602, 0, 0, 0, 0); -- Glänzender Zauberfaden
+INSERT INTO world.npc_vendor VALUES (43336, 12, 35449, 0, 0, 0, 0); -- Schild - Erhebliche Ausdauer
+INSERT INTO world.npc_vendor VALUES (43336, 13, 44936, 0, 0, 0, 0); -- Titanbeschlag
+INSERT INTO world.npc_vendor VALUES (43336, 14, 44815, 0, 0, 0, 0); -- Rolle der Armschienenverzauberung - Großer Sturmangriff
+INSERT INTO world.npc_vendor VALUES (43336, 15, 44947, 0, 0, 0, 0); -- Rolle der Armschienenverzauberung - Erhebliche Ausdauer
+INSERT INTO world.npc_vendor VALUES (43336, 16, 38856, 0, 0, 0, 0); -- Rolle der Handschuhverzauberung - Große Beweglichkeit
+INSERT INTO world.npc_vendor VALUES (43336, 17, 44458, 0, 0, 0, 0); -- Rolle der Handschuhverzauberung - Zermalmer
+INSERT INTO world.npc_vendor VALUES (43336, 18, 38964, 0, 0, 0, 0); -- Rolle der Handschuhverzauberung - Großer Sturmangriff
+INSERT INTO world.npc_vendor VALUES (43336, 19, 38967, 0, 0, 0, 0); -- Rolle der Handschuhverzauberung - Erhebliche Beweglichkeit
+INSERT INTO world.npc_vendor VALUES (43336, 20, 38990, 0, 0, 0, 0); -- Rolle der Handschuverzauberung – Waffenmeister
+INSERT INTO world.npc_vendor VALUES (43336, 21, 39003, 0, 0, 0, 0); -- Rolle der Umhangverzauberung - Großes Tempo
+INSERT INTO world.npc_vendor VALUES (43336, 22, 44457, 0, 0, 0, 0); -- Rolle der Umhangverzauberung - Erhebliche Beweglichkeit
+INSERT INTO world.npc_vendor VALUES (43336, 23, 39001, 0, 0, 0, 0); -- Rolle der Umhangverzauberung - Mächtige Rüstung
+INSERT INTO world.npc_vendor VALUES (43336, 24, 38825, 0, 0, 0, 0); -- Rolle der Umhangverzauberung - Große Verteidigung
+INSERT INTO world.npc_vendor VALUES (43336, 25, 44465, 0, 0, 0, 0); -- Rolle der Brustverzauberung - Gewaltige Werte
+INSERT INTO world.npc_vendor VALUES (43336, 26, 38863, 0, 0, 0, 0); -- Rolle der Stiefelverzauberung - Große Beweglichkeit
+INSERT INTO world.npc_vendor VALUES (43336, 27, 44469, 0, 0, 0, 0); -- Rolle der Stiefelverzauberung - Großer Sturmangriff
+INSERT INTO world.npc_vendor VALUES (43336, 28, 38986, 0, 0, 0, 0); -- Rolle der Stiefelverzauberung - Eiswandler
+INSERT INTO world.npc_vendor VALUES (43336, 29, 39006, 0, 0, 0, 0); -- Rolle der Stiefelverzauberung - Vitalität der Tuskarr
+INSERT INTO world.npc_vendor VALUES (43336, 30, 44493, 0, 0, 0, 0); -- Rolle der Waffenverzauberung - Berserker
+INSERT INTO world.npc_vendor VALUES (43336, 31, 38995, 0, 0, 0, 0); -- Rolle der Waffenverzauberung - Außergewöhnliche Beweglichkeit
+
+
+### Update McDonalds
+INSERT INTO world.npc_vendor VALUES (43326, 0, 42999, 0, 0, 0, 0); -- Geschwärzte Drachenflosse
+
+	-- add Cleaver to McDonalds
+	UPDATE world.creature SET equipment_id = 1 WHERE guid = 213980;
+	INSERT INTO world.creature_equip_template VALUES ('43326', '1', '1827', '0', '0', '0');
+
+-- Update Zosimus
+INSERT INTO world.npc_vendor VALUES (43291, 0, 40093, 0, 0, 0, 0); -- Unzerstörbarer Trank
 
 -- Add GObjects
 INSERT INTO world.gameobject VALUES ('167196', '185130', '571', '0', '0', '1', '1', '5829.04', '647.529', '610.286', '5.23438', '-0', '-0', '-0.500695', '0.865624', '300', '255', '1', '', '0');

@@ -12,8 +12,7 @@ INSERT INTO world.gameobject VALUES ('166016', '191746', '571', '0', '0', '1', '
 INSERT INTO world.gameobject VALUES ('166105', '192825', '571', '0', '0', '1', '1', '5810.09', '651.532', '609.885', '4.32448', '-0', '-0', '-0.830137', '0.55756', '300', '255', '1', '', '0');
 INSERT INTO world.gameobject VALUES ('166106', '192824', '571', '0', '0', '1', '1', '5810.06', '651.775', '609.885', '4.41637', '-0', '-0', '-0.803652', '0.5951', '300', '255', '1', '', '0');
 INSERT INTO world.gameobject VALUES ('166103', '191945', '571', '0', '0', '1', '1', '5811.21', '652.117', '609.886', '4.19488', '-0', '-0', '-0.8645', '0.502633', '300', '255', '1', '', '0');
-INSERT INTO world.gameobject VALUES ('166113', '2139', '571', '0', '0', '1', '1', '5810.94', '611.198', '613.678', '2.30601', '-0', '-0', '-0.913988', '-0.405741', '300', '255', '1', '', '0');
-INSERT INTO world.gameobject VALUES ('166108', '2139', '571', '0', '0', '1', '1', '5836.67', '647.266', '613.058', '2.37747', '-0', '-0', '-0.927898', '-0.372834', '300', '255', '1', '', '0');
+INSERT INTO world.gameobject VALUES ('166108', '2139', '571', '0', '0', '1', '1', '5833.74', '638.559', '613.754', '2.37747', '-0', '-0', '-0.927898', '-0.372834', '300', '255', '1', '', '0');
 
 -- Tisch neben der Seelenschmiede
 INSERT INTO world.gameobject VALUES ('166150', '192547', '571', '0', '0', '1', '1', '5780.38', '583.22', '609.158', '1.65236', '-0', '-0', '-0.735349', '-0.677689', '300', '255', '1', '', '0');
@@ -87,6 +86,7 @@ INSERT INTO world.gameobject VALUES ('166889', '148504', '571', '0', '0', '1', '
 INSERT INTO world.gameobject VALUES ('166930', '2870', '571', '0', '0', '1', '1', '5843.17', '692.991', '612.651', '3.98943', '-0', '-0', '-0.911484', '0.411336', '300', '255', '1', '', '0'); -- Lichtsäule
 INSERT INTO world.gameobject VALUES ('166946', '177415', '571', '0', '0', '1', '1', '5848.4', '689.966', '610.737', '5.64545', '-0', '-0', '-0.31349', '0.949591', '300', '255', '1', '', '0'); -- Lichtschimmer
 INSERT INTO world.gameobject VALUES ('166950', '146082', '571', '0', '0', '1', '1', '5853.06', '686.84', '611.237', '1.74988', '-0', '-0', '-0.767506', '-0.641042', '300', '255', '1', '', '0'); -- Lichtsäule
+INSERT INTO world.gameobject VALUES ('167196', '185130', '571', '0', '0', '1', '1', '5829.04', '647.529', '610.286', '5.23438', '-0', '-0', '-0.500695', '0.865624', '300', '255', '1', '', '0');
 
 -- Erzkarren
 INSERT INTO world.gameobject VALUES ('167009', '192058', '571', '0', '0', '1', '1', '5793.92', '660.127', '609.158', '0.0102806', '-0', '-0', '-0.00514265', '-0.999987', '300', '255', '1', '', '0');
@@ -113,3 +113,8 @@ INSERT INTO world.gameobject VALUES ('167148', '194159', '571', '0', '0', '1', '
 
 -- Kristall Gems
 INSERT INTO world.gameobject VALUES ('167169', '188140', '571', '0', '0', '1', '1', '5790.8', '660.495', '610.476', '5.59269', '-0', '-0', '-0.338428', '0.940992', '300', '255', '1', '', '0');
+
+-- Textänderungen GObjects
+UPDATE world.page_text SET Text = "Ein großes Dankeschön gehen an Linda und Mayon für die technische Unterstützung, Dennis und Mayon für das Design, Mayon, Steffi und Kitty für die Guides und Danny, Daniel, Dennis, Kitty, Mayon, Linda, Malte für die Beta-Tests :D" WHERE ID = 3605;
+UPDATE world.page_text_locale SET Text = "Ein großes Dankeschön gehen an Linda und Mayon für die technische Unterstützung, Dennis und Mayon für das Design, Mayon, Steffi und Kitty für die Guides und Danny, Daniel, Dennis, Kitty, Mayon, Linda, Malte für die Beta-Tests :D" WHERE ID = 3605 AND locale = "deDE";
+UPDATE world.gameobject_template SET name = "Waffenexpertise" WHERE entry = 2139;
